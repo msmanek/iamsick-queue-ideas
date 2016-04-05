@@ -20,7 +20,9 @@
   <body>
     <div class="container">
     <h1 class="title">Queue Interface Design Ideas</h1>
+
       <div class="row">
+        <!-- Idea 1 -->
         <div class="col-md-4">
           <h3 class="col-title">Idea 1</h3>
           <div class="row">
@@ -32,15 +34,15 @@
                 <strong>Name:</strong> Mohammed </br>
                 <strong>Gender:</strong> Male </br>
                 <strong>Symptoms:</strong> Cramps, Nausea, Dizziness </br>
-                <strong>Doctor:</strong> John Smith2 </br>
-                <a href="google.ca">Open Mohammed's Profile</a>
+                <strong>Doctor:</strong> John Smith </br>
+                <a href="http://google.ca">Open Mohammed's Profile</a>
               </p>
             </div>
           </div>
 
           <div class="row">
             <div class="col-md-3">
-              <img src="./img/person2.png" alt="Person 1" width="150%">
+              <img src="./img/person2.png" alt="Person 2" width="150%">
             </div>
             <div class="col-md-9">
               <p>
@@ -48,14 +50,14 @@
                 <strong>Gender:</strong> Male </br>
                 <strong>Symptoms:</strong> Dry Throat </br>
                 <strong>Doctor:</strong> Jane Doe </br>
-                <a href="google.ca">Open Bob's Profile</a>
+                <a href="http://google.ca">Open Bob's Profile</a>
               </p>
             </div>
           </div>
 
           <div class="row">
             <div class="col-md-3">
-              <img src="./img/person2.png" alt="Person 1" width="150%">
+              <img src="./img/person2.png" alt="Person 3" width="150%">
             </div>
             <div class="col-md-9">
               <p>
@@ -63,23 +65,75 @@
                 <strong>Gender:</strong> Male </br>
                 <strong>Symptoms:</strong> Headachy, Dizzy </br>
                 <strong>Doctor:</strong> Jane Doe </br>
-                <a href="google.ca">Open Mohammed's Profile</a>
+                <a href="http://google.ca">Open Craig's Profile</a>
               </p>
             </div>
           </div>
         </div>
 
+        <!-- Idea 2 -->
         <div class="col-md-4">
           <h3 class="col-title">Idea 2</h3>
+          <div class="row">
+            <div class="enqueued-patient">
+              <h4>Mohammed</h4>
+              <p>
+                <strong>Gender:</strong> Male </br>
+                <strong>Symptoms:</strong> Cramps, Nausea, Dizziness </br>
+                <strong>Doctor:</strong> John Smith </br>
+                <a href="google.ca">Open Mohammed's Profile</a>
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="enqueued-patient">
+              <h4>Bob Loblaw</h4>
+              <p>
+                <strong>Gender:</strong> Male </br>
+                <strong>Symptoms:</strong> Dry Throat </br>
+                <strong>Doctor:</strong> Jane Doe </br>
+                <a href="google.ca">Open Bob's Profile</a>
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="enqueued-patient">
+              <h4>Craig</h4>
+              <p>
+                <strong>Gender:</strong> Male </br>
+                <strong>Symptoms:</strong> Headachy, Dizzy </br>
+                <strong>Doctor:</strong> Jane Doe </br>
+                <a href="google.ca">Open Craig's Profile</a>
+              </p>
+            </div>
+          </div>
         </div>
 
+        <!-- Idea 3 -->
         <div class="col-md-4">
           <h3 class="col-title">Idea 3</h3>
+          <div class="row">
+            <div class="col-md-6">
+              <img src="./img/mohammed2.jpg" class="img-circle center-img" width="50%">
+              <h5 class="center"><a href="http://google.ca">1) Mohammed</a></h5>
+            </div>
+            <div class="col-md-6">
+              <img src="./img/bob.jpg" class="img-circle center-img" width="50%">
+              <h5 class="center"><a href="http://google.ca">2) Bob Loblaw</a></h5>
+            </div>            
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <img src="./img/craig.jpg" class="img-circle center-img" width="50%">
+              <h5 class="center"><a href="http://google.ca">3) Craig</a></h5>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
     <script src="./js/jquery-1.12.2.js"></script>
     <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/scripts.js"></script>
   </body>
 </html>
